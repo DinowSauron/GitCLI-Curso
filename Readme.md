@@ -1,5 +1,16 @@
-Projeto para aprofudar meus conhecimentos na CLI do github.
+# Git CLI
 
+Projeto para aprofudar meus conhecimentos na CLI do github.
+Curso realizado na DIO. Digital inovation one
+Projeto finalizado com sucesso!
+
+<a href="https://www.dio.me/certificate/64F1DD23/share" target="_blank">
+  <p align="center">
+    <img width="80%" src="./certificado.png" alt="certificado do luiz claudio, de conclusão do curso 'git e github' fornecido pela DIO (digital inovation one)"/>
+  </p>
+</a>
+
+---
 
 ## Comandos:
 * mkdir: make dir
@@ -11,6 +22,7 @@ Projeto para aprofudar meus conhecimentos na CLI do github.
 * del 'path' : se usar em pasta, limpa todo o conteudo dela
 * windows: rmdir 'path' /S /Q : removeDir remove a pasta. > /S /Q são flags
 * linux: rm -rf 'path' : remove (-r remove subpastas dentro | -f executa sem perguntas)
+* mv 'arquivo' 'destino' : mover arquivo
 
 
 ### Comandos sha1:
@@ -28,9 +40,14 @@ Projeto para aprofudar meus conhecimentos na CLI do github.
   * `git config --global user.email "YOUR_EMAIL"` - utilize as aspas
   * `git config --global user.name YOUR_NAME`
 
-* `git init` - inicia repo
-* `git add` - 
-* `git commit` -
+* Comitar Uma mudança:
+  * `git add *` - adiciona todas as mudanças
+  * `git commit -m "TEXTO_DO_COMMIT"` - commita
+
+* Outros comandos:
+  * `git init` - inicia repo
+  * `git status` - ve as mudanças do seu repo (um dos comandos mais importantes)
+  * `git push origin master` - só funciona quando há o repositorio já criado no github
 
 ## Notas:
 * silence on success: não avisa nada quando o comando dá certo.
