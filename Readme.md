@@ -13,20 +13,20 @@ Projeto finalizado com sucesso!
 ---
 
 ## Comandos:
-* mkdir: make dir
-* clear
-* pwd : caminho completo
-* ls | dir : -a (adiciona arquivos ocultos)
-* echo hello  : imprime na tela hello
-* echo hello > hello.txt  : cria o arquivo com o texto (> redireciona o fluxo) 
-* del 'path' : se usar em pasta, limpa todo o conteudo dela
-* windows: rmdir 'path' /S /Q : removeDir remove a pasta. > /S /Q são flags
-* linux: rm -rf 'path' : remove (-r remove subpastas dentro | -f executa sem perguntas)
-* mv 'arquivo' 'destino' : mover arquivo
+* ``mkdir`` > make dir
+* ``clear`` > clear (ctrl + l)
+* ``pwd`` > caminho completo
+* ``ls | dir`` > ``-a`` (adiciona arquivos ocultos)
+* ``echo hello`` > imprime na tela hello
+* ``echo hello > hello.txt`` > cria o arquivo com o texto (> redireciona o fluxo) 
+* ``del PATH`` > se usar em pasta, limpa todo o conteudo dela
+* windows: ``rmdir PATH /S /Q`` > removeDir remove a pasta. > /S /Q são flags
+* linux: ``rm -rf 'path' : remove`` > (-r remove subpastas dentro | -f executa sem perguntas)
+* ``mv ARCHIVE DESTINY`` > mover arquivo ao destino
 
 
 ### Comandos sha1:
-* openssl sha1 sha1-test.html  > generates sha1 code: 418fba639dc2a7efde564c9f13b8dcdcde44ee71
+* ``openssl sha1 sha1-test.html`` > generates sha1 code: 418fba639dc2a7efde564c9f13b8dcdcde44ee71
 
 
 ### Comandos do GIT:
@@ -48,6 +48,7 @@ Projeto finalizado com sucesso!
   * `git init` - inicia repo
   * `git status` - ve as mudanças do seu repo (um dos comandos mais importantes)
   * `git push origin master` - só funciona quando há o repositorio já criado no github
+
 
 ## Notas:
 * silence on success: não avisa nada quando o comando dá certo.
